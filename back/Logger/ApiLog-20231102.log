@@ -1,0 +1,1034 @@
+[2023-11-02 21:55:44.409 +01:00 [INF] User profile is available. Using 'C:\Users\melyo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+][2023-11-02 21:55:44.669 +01:00 [INF] Now listening on: http://localhost:5237
+][2023-11-02 21:55:44.671 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+][2023-11-02 21:55:44.672 +01:00 [INF] Hosting environment: Development
+][2023-11-02 21:55:44.672 +01:00 [INF] Content root path: C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back
+][2023-11-02 22:45:03.086 +01:00 [INF] Application is shutting down...
+][2023-11-02 22:45:11.500 +01:00 [INF] User profile is available. Using 'C:\Users\melyo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+][2023-11-02 22:45:11.660 +01:00 [INF] Now listening on: https://localhost:7179
+][2023-11-02 22:45:11.661 +01:00 [INF] Now listening on: http://localhost:5237
+][2023-11-02 22:45:11.663 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+][2023-11-02 22:45:11.664 +01:00 [INF] Hosting environment: Development
+][2023-11-02 22:45:11.664 +01:00 [INF] Content root path: C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back
+][2023-11-02 22:45:19.162 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/api/products - -
+][2023-11-02 22:45:19.241 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 22:45:19.434 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 22:45:19.466 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller back.Controllers.ProductsController (back).
+][2023-11-02 22:45:21.732 +01:00 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+][2023-11-02 22:45:21.860 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[back.Repositories.ProductEntity, back, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+][2023-11-02 22:45:21.912 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 2440.9049ms
+][2023-11-02 22:45:21.913 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 22:45:21.925 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/api/products - - - 200 - application/json;+charset=utf-8 2768.1354ms
+][2023-11-02 22:45:21.980 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/Uploads/Products/7120b16a-4cb0-4d15-af31-fe6151cd8ef2.jpg - -
+][2023-11-02 22:45:21.980 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/Uploads/Products/4c5758c2-45ef-4a1f-aa90-1c379e729bf9.jpeg - -
+][2023-11-02 22:45:21.980 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/Uploads/Products/00000000-0000-0000-0000-000000000000.jpg - -
+][2023-11-02 22:45:21.980 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/Uploads/Products/548f39b5-27dc-4e57-b32f-3e691c3731f4.jpg - -
+][2023-11-02 22:45:21.980 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/Uploads/Products/2c1349e6-6d11-4a9d-8d90-02a765308654.jpg - -
+][2023-11-02 22:45:21.980 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/Uploads/Products/620d7802-d081-4b5f-be3b-7a6d0bab03e2.jpg - -
+][2023-11-02 22:45:22.033 +01:00 [INF] Sending file. Request path: '/Uploads/Products/2c1349e6-6d11-4a9d-8d90-02a765308654.jpg'. Physical path: 'C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back\wwwroot\Uploads\Products\2c1349e6-6d11-4a9d-8d90-02a765308654.jpg'
+][2023-11-02 22:45:22.034 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/Uploads/Products/2c1349e6-6d11-4a9d-8d90-02a765308654.jpg - - - 200 377690 image/jpeg 53.8338ms
+][2023-11-02 22:45:22.050 +01:00 [INF] Sending file. Request path: '/Uploads/Products/548f39b5-27dc-4e57-b32f-3e691c3731f4.jpg'. Physical path: 'C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back\wwwroot\Uploads\Products\548f39b5-27dc-4e57-b32f-3e691c3731f4.jpg'
+][2023-11-02 22:45:22.050 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/Uploads/Products/548f39b5-27dc-4e57-b32f-3e691c3731f4.jpg - - - 200 781185 image/jpeg 70.2842ms
+][2023-11-02 22:45:22.080 +01:00 [INF] Sending file. Request path: '/Uploads/Products/00000000-0000-0000-0000-000000000000.jpg'. Physical path: 'C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back\wwwroot\Uploads\Products\00000000-0000-0000-0000-000000000000.jpg'
+][2023-11-02 22:45:22.080 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/Uploads/Products/00000000-0000-0000-0000-000000000000.jpg - - - 200 1592040 image/jpeg 99.9768ms
+][2023-11-02 22:45:22.100 +01:00 [INF] Sending file. Request path: '/Uploads/Products/7120b16a-4cb0-4d15-af31-fe6151cd8ef2.jpg'. Physical path: 'C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back\wwwroot\Uploads\Products\7120b16a-4cb0-4d15-af31-fe6151cd8ef2.jpg'
+][2023-11-02 22:45:22.100 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/Uploads/Products/7120b16a-4cb0-4d15-af31-fe6151cd8ef2.jpg - - - 200 2168543 image/jpeg 120.2024ms
+][2023-11-02 22:45:22.109 +01:00 [INF] Sending file. Request path: '/Uploads/Products/620d7802-d081-4b5f-be3b-7a6d0bab03e2.jpg'. Physical path: 'C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back\wwwroot\Uploads\Products\620d7802-d081-4b5f-be3b-7a6d0bab03e2.jpg'
+][2023-11-02 22:45:22.110 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/Uploads/Products/620d7802-d081-4b5f-be3b-7a6d0bab03e2.jpg - - - 200 2495952 image/jpeg 129.5854ms
+][2023-11-02 22:45:22.188 +01:00 [INF] Sending file. Request path: '/Uploads/Products/4c5758c2-45ef-4a1f-aa90-1c379e729bf9.jpeg'. Physical path: 'C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back\wwwroot\Uploads\Products\4c5758c2-45ef-4a1f-aa90-1c379e729bf9.jpeg'
+][2023-11-02 22:45:22.189 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/Uploads/Products/4c5758c2-45ef-4a1f-aa90-1c379e729bf9.jpeg - - - 200 4531763 image/jpeg 208.6467ms
+][2023-11-02 22:45:36.631 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7179/api/products/c349521e-adfc-4344-ae60-76089c0139cc - -
+][2023-11-02 22:45:36.635 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 22:45:36.636 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7179/api/products/c349521e-adfc-4344-ae60-76089c0139cc - - - 204 - - 5.2058ms
+][2023-11-02 22:45:36.651 +01:00 [INF] Request starting HTTP/2 DELETE https://localhost:7179/api/products/c349521e-adfc-4344-ae60-76089c0139cc - -
+][2023-11-02 22:45:36.653 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 22:45:36.655 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.DeleteProducts (back)'
+][2023-11-02 22:45:36.679 +01:00 [INF] Route matched with {action = "DeleteProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteProducts(System.Guid) on controller back.Controllers.ProductsController (back).
+][2023-11-02 22:45:36.910 +01:00 [INF] Executed DbCommand (11ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+WHERE p."Id" = @__get_Item_0
+LIMIT 1
+][2023-11-02 22:45:37.010 +01:00 [INF] Executed DbCommand (9ms) [Parameters=[@p0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = @p0;
+][2023-11-02 22:45:37.024 +01:00 [INF] Executing OkObjectResult, writing value of type 'back.Models.Domain.Product'.
+][2023-11-02 22:45:37.030 +01:00 [INF] Executed action back.Controllers.ProductsController.DeleteProducts (back) in 351.2639ms
+][2023-11-02 22:45:37.031 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.DeleteProducts (back)'
+][2023-11-02 22:45:37.031 +01:00 [INF] Request finished HTTP/2 DELETE https://localhost:7179/api/products/c349521e-adfc-4344-ae60-76089c0139cc - - - 200 - application/json;+charset=utf-8 380.3520ms
+][2023-11-02 22:45:37.041 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/api/products - -
+][2023-11-02 22:45:37.041 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 22:45:37.044 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 22:45:37.045 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller back.Controllers.ProductsController (back).
+][2023-11-02 22:45:37.121 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+][2023-11-02 22:45:37.123 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[back.Repositories.ProductEntity, back, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+][2023-11-02 22:45:37.123 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 77.4522ms
+][2023-11-02 22:45:37.123 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 22:45:37.123 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/api/products - - - 200 - application/json;+charset=utf-8 82.6265ms
+][2023-11-02 23:03:10.106 +01:00 [INF] Application is shutting down...
+][2023-11-02 23:03:18.818 +01:00 [INF] User profile is available. Using 'C:\Users\melyo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+][2023-11-02 23:03:18.956 +01:00 [INF] Now listening on: https://localhost:7179
+][2023-11-02 23:03:18.956 +01:00 [INF] Now listening on: http://localhost:5237
+][2023-11-02 23:03:18.959 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+][2023-11-02 23:03:18.959 +01:00 [INF] Hosting environment: Development
+][2023-11-02 23:03:18.959 +01:00 [INF] Content root path: C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back
+][2023-11-02 23:03:26.293 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/api/products - -
+][2023-11-02 23:03:26.376 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:03:26.417 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:03:26.441 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:03:27.568 +01:00 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+][2023-11-02 23:03:27.685 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[back.Repositories.ProductEntity, back, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+][2023-11-02 23:03:27.736 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 1291.5408ms
+][2023-11-02 23:03:27.737 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:03:27.750 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/api/products - - - 200 - application/json;+charset=utf-8 1459.6059ms
+][2023-11-02 23:03:42.349 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7179/api/products multipart/form-data;+boundary=----WebKitFormBoundarya9UP7gkBuWljS0A8 416229
+][2023-11-02 23:03:42.352 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:03:42.354 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.CreateProducts (back)'
+][2023-11-02 23:03:42.373 +01:00 [INF] Route matched with {action = "CreateProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateProducts(Microsoft.AspNetCore.Http.IFormFile, back.Models.Domain.Product) on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:03:42.606 +01:00 [INF] Executed DbCommand (28ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?', @p5='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "Description", "PublishedDate", "Thumbnail", "Title", "Visibility")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+][2023-11-02 23:03:42.618 +01:00 [INF] Executing OkObjectResult, writing value of type 'back.Models.Domain.Product'.
+][2023-11-02 23:03:42.624 +01:00 [INF] Executed action back.Controllers.ProductsController.CreateProducts (back) in 250.5759ms
+][2023-11-02 23:03:42.624 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.CreateProducts (back)'
+][2023-11-02 23:03:42.626 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7179/api/products multipart/form-data;+boundary=----WebKitFormBoundarya9UP7gkBuWljS0A8 416229 - 200 - application/json;+charset=utf-8 277.0172ms
+][2023-11-02 23:03:42.678 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/api/products - -
+][2023-11-02 23:03:42.681 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:03:42.685 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:03:42.686 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:03:42.773 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+][2023-11-02 23:03:42.774 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[back.Repositories.ProductEntity, back, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+][2023-11-02 23:03:42.775 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 88.7601ms
+][2023-11-02 23:03:42.775 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:03:42.775 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/api/products - - - 200 - application/json;+charset=utf-8 97.4690ms
+][2023-11-02 23:05:22.853 +01:00 [INF] Application is shutting down...
+][2023-11-02 23:05:28.609 +01:00 [INF] User profile is available. Using 'C:\Users\melyo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+][2023-11-02 23:05:28.749 +01:00 [INF] Now listening on: https://localhost:7179
+][2023-11-02 23:05:28.749 +01:00 [INF] Now listening on: http://localhost:5237
+][2023-11-02 23:05:28.753 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+][2023-11-02 23:05:28.753 +01:00 [INF] Hosting environment: Development
+][2023-11-02 23:05:28.753 +01:00 [INF] Content root path: C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back
+][2023-11-02 23:05:31.958 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/api/products - -
+][2023-11-02 23:05:32.051 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:05:32.087 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:05:32.111 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:05:33.316 +01:00 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+][2023-11-02 23:05:33.440 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[back.Repositories.ProductEntity, back, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+][2023-11-02 23:05:33.486 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 1369.8832ms
+][2023-11-02 23:05:33.487 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:05:33.497 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/api/products - - - 200 - application/json;+charset=utf-8 1542.1100ms
+][2023-11-02 23:05:36.844 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/api/products/bff4042a-e5c6-4527-b2a1-5e6ea8a8eb0b - -
+][2023-11-02 23:05:36.852 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:05:36.855 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:05:36.887 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(System.Guid) on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:05:37.144 +01:00 [INF] Executed DbCommand (13ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+WHERE p."Id" = @__get_Item_0
+LIMIT 1
+][2023-11-02 23:05:37.148 +01:00 [INF] Executing OkObjectResult, writing value of type 'back.Models.Domain.Product'.
+][2023-11-02 23:05:37.155 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 267.7979ms
+][2023-11-02 23:05:37.156 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:05:37.157 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/api/products/bff4042a-e5c6-4527-b2a1-5e6ea8a8eb0b - - - 200 - application/json;+charset=utf-8 313.3345ms
+][2023-11-02 23:06:00.030 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/api/products - -
+][2023-11-02 23:06:00.032 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:06:00.037 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:06:00.038 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:06:00.124 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+][2023-11-02 23:06:00.125 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[back.Repositories.ProductEntity, back, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+][2023-11-02 23:06:00.125 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 87.1557ms
+][2023-11-02 23:06:00.126 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:06:00.126 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/api/products - - - 200 - application/json;+charset=utf-8 96.2145ms
+][2023-11-02 23:06:27.487 +01:00 [INF] Application is shutting down...
+][2023-11-02 23:06:32.441 +01:00 [INF] User profile is available. Using 'C:\Users\melyo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+][2023-11-02 23:06:32.577 +01:00 [INF] Now listening on: https://localhost:7179
+][2023-11-02 23:06:32.578 +01:00 [INF] Now listening on: http://localhost:5237
+][2023-11-02 23:06:32.581 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+][2023-11-02 23:06:32.582 +01:00 [INF] Hosting environment: Development
+][2023-11-02 23:06:32.582 +01:00 [INF] Content root path: C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back
+][2023-11-02 23:06:33.803 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/api/products - -
+][2023-11-02 23:06:33.873 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:06:33.907 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:06:33.928 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:06:35.101 +01:00 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+][2023-11-02 23:06:35.211 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[back.Repositories.ProductEntity, back, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+][2023-11-02 23:06:35.256 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 1323.4177ms
+][2023-11-02 23:06:35.257 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:06:35.269 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/api/products - - - 200 - application/json;+charset=utf-8 1468.6636ms
+][2023-11-02 23:06:39.080 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/api/products/bff4042a-e5c6-4527-b2a1-5e6ea8a8eb0b - -
+][2023-11-02 23:06:39.088 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:06:39.093 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:06:39.119 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(System.Guid) on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:06:39.334 +01:00 [INF] Executed DbCommand (16ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+WHERE p."Id" = @__get_Item_0
+LIMIT 1
+][2023-11-02 23:06:39.338 +01:00 [INF] Executing OkObjectResult, writing value of type 'back.Models.Domain.Product'.
+][2023-11-02 23:06:39.345 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 226.1294ms
+][2023-11-02 23:06:39.346 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:06:39.347 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/api/products/bff4042a-e5c6-4527-b2a1-5e6ea8a8eb0b - - - 200 - application/json;+charset=utf-8 266.6202ms
+][2023-11-02 23:07:25.977 +01:00 [INF] Application is shutting down...
+][2023-11-02 23:07:30.752 +01:00 [INF] User profile is available. Using 'C:\Users\melyo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+][2023-11-02 23:07:30.892 +01:00 [INF] Now listening on: https://localhost:7179
+][2023-11-02 23:07:30.892 +01:00 [INF] Now listening on: http://localhost:5237
+][2023-11-02 23:07:30.895 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+][2023-11-02 23:07:30.896 +01:00 [INF] Hosting environment: Development
+][2023-11-02 23:07:30.896 +01:00 [INF] Content root path: C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back
+][2023-11-02 23:07:35.931 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/api/products/bff4042a-e5c6-4527-b2a1-5e6ea8a8eb0b - -
+][2023-11-02 23:07:36.007 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:07:36.084 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:07:36.131 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(System.Guid) on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:07:37.548 +01:00 [INF] Executed DbCommand (33ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+WHERE p."Id" = @__get_Item_0
+LIMIT 1
+][2023-11-02 23:07:37.637 +01:00 [INF] Executing OkObjectResult, writing value of type 'back.Models.Domain.Product'.
+][2023-11-02 23:07:37.682 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 1546.6373ms
+][2023-11-02 23:07:37.683 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:07:37.695 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/api/products/bff4042a-e5c6-4527-b2a1-5e6ea8a8eb0b - - - 200 - application/json;+charset=utf-8 1768.0201ms
+][2023-11-02 23:07:37.710 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/Uploads/Products/bff4042a-e5c6-4527-b2a1-5e6ea8a8eb0b.jpg - -
+][2023-11-02 23:07:37.734 +01:00 [INF] Sending file. Request path: '/Uploads/Products/bff4042a-e5c6-4527-b2a1-5e6ea8a8eb0b.jpg'. Physical path: 'C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back\wwwroot\Uploads\Products\bff4042a-e5c6-4527-b2a1-5e6ea8a8eb0b.jpg'
+][2023-11-02 23:07:37.735 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/Uploads/Products/bff4042a-e5c6-4527-b2a1-5e6ea8a8eb0b.jpg - - - 200 415512 image/jpeg 25.6158ms
+][2023-11-02 23:07:47.539 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/api/products - -
+][2023-11-02 23:07:47.546 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:07:47.548 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:07:47.564 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:07:47.685 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+][2023-11-02 23:07:47.713 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[back.Repositories.ProductEntity, back, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+][2023-11-02 23:07:47.725 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 160.2788ms
+][2023-11-02 23:07:47.725 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:07:47.726 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/api/products - - - 200 - application/json;+charset=utf-8 186.4019ms
+][2023-11-02 23:09:02.369 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/api/products/548f39b5-27dc-4e57-b32f-3e691c3731f4 - -
+][2023-11-02 23:09:02.370 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:09:02.375 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:09:02.375 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(System.Guid) on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:09:02.412 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+WHERE p."Id" = @__get_Item_0
+LIMIT 1
+][2023-11-02 23:09:02.413 +01:00 [INF] Executing OkObjectResult, writing value of type 'back.Models.Domain.Product'.
+][2023-11-02 23:09:02.413 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 38.4813ms
+][2023-11-02 23:09:02.414 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:09:02.414 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/api/products/548f39b5-27dc-4e57-b32f-3e691c3731f4 - - - 200 - application/json;+charset=utf-8 45.2738ms
+][2023-11-02 23:09:02.433 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/https://localhost:7179/Uploads/Products/548f39b5-27dc-4e57-b32f-3e691c3731f4.jpg - -
+][2023-11-02 23:09:02.437 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/https://localhost:7179/Uploads/Products/548f39b5-27dc-4e57-b32f-3e691c3731f4.jpg - - - 404 0 - 3.5102ms
+][2023-11-02 23:09:18.833 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7179/api/products - -
+][2023-11-02 23:09:18.834 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:09:18.835 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7179/api/products - - - 204 - - 2.0159ms
+][2023-11-02 23:09:18.845 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7179/api/products application/json 289
+][2023-11-02 23:09:18.845 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:09:18.845 +01:00 [INF] Executing endpoint '415 HTTP Unsupported Media Type'
+][2023-11-02 23:09:18.845 +01:00 [INF] Executed endpoint '415 HTTP Unsupported Media Type'
+][2023-11-02 23:09:18.846 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7179/api/products application/json 289 - 415 0 - 0.9341ms
+][2023-11-02 23:09:35.443 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7179/api/products - -
+][2023-11-02 23:09:35.443 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:09:35.443 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7179/api/products - - - 204 - - 0.5925ms
+][2023-11-02 23:09:35.449 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7179/api/products application/json 289
+][2023-11-02 23:09:35.450 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:09:35.450 +01:00 [INF] Executing endpoint '415 HTTP Unsupported Media Type'
+][2023-11-02 23:09:35.450 +01:00 [INF] Executed endpoint '415 HTTP Unsupported Media Type'
+][2023-11-02 23:09:35.450 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7179/api/products application/json 289 - 415 0 - 0.5078ms
+][2023-11-02 23:10:24.532 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7179/api/products - -
+][2023-11-02 23:10:24.533 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:10:24.533 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7179/api/products - - - 204 - - 0.8437ms
+][2023-11-02 23:10:24.541 +01:00 [INF] Request starting HTTP/2 PUT https://localhost:7179/api/products application/json 289
+][2023-11-02 23:10:24.542 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:10:24.542 +01:00 [INF] Executing endpoint '415 HTTP Unsupported Media Type'
+][2023-11-02 23:10:24.542 +01:00 [INF] Executed endpoint '415 HTTP Unsupported Media Type'
+][2023-11-02 23:10:24.542 +01:00 [INF] Request finished HTTP/2 PUT https://localhost:7179/api/products application/json 289 - 415 0 - 0.6376ms
+][2023-11-02 23:11:06.307 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/api/products - -
+][2023-11-02 23:11:06.308 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:11:06.308 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:11:06.308 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:11:06.312 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+][2023-11-02 23:11:06.313 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[back.Repositories.ProductEntity, back, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+][2023-11-02 23:11:06.313 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 4.9552ms
+][2023-11-02 23:11:06.313 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:11:06.314 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/api/products - - - 200 - application/json;+charset=utf-8 6.1520ms
+][2023-11-02 23:11:11.773 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7179/api/products/548f39b5-27dc-4e57-b32f-3e691c3731f4 - -
+][2023-11-02 23:11:11.773 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:11:11.773 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7179/api/products/548f39b5-27dc-4e57-b32f-3e691c3731f4 - - - 204 - - 0.3712ms
+][2023-11-02 23:11:11.779 +01:00 [INF] Request starting HTTP/2 DELETE https://localhost:7179/api/products/548f39b5-27dc-4e57-b32f-3e691c3731f4 - -
+][2023-11-02 23:11:11.779 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:11:11.779 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.DeleteProducts (back)'
+][2023-11-02 23:11:11.784 +01:00 [INF] Route matched with {action = "DeleteProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteProducts(System.Guid) on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:11:11.789 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+WHERE p."Id" = @__get_Item_0
+LIMIT 1
+][2023-11-02 23:11:11.882 +01:00 [INF] Executed DbCommand (8ms) [Parameters=[@p0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = @p0;
+][2023-11-02 23:11:11.893 +01:00 [INF] Executing OkObjectResult, writing value of type 'back.Models.Domain.Product'.
+][2023-11-02 23:11:11.893 +01:00 [INF] Executed action back.Controllers.ProductsController.DeleteProducts (back) in 109.0888ms
+][2023-11-02 23:11:11.893 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.DeleteProducts (back)'
+][2023-11-02 23:11:11.893 +01:00 [INF] Request finished HTTP/2 DELETE https://localhost:7179/api/products/548f39b5-27dc-4e57-b32f-3e691c3731f4 - - - 200 - application/json;+charset=utf-8 114.1460ms
+][2023-11-02 23:11:11.904 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/api/products - -
+][2023-11-02 23:11:11.905 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:11:11.905 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:11:11.905 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:11:11.906 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+][2023-11-02 23:11:11.907 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[back.Repositories.ProductEntity, back, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+][2023-11-02 23:11:11.907 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 2.6132ms
+][2023-11-02 23:11:11.908 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:11:11.908 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/api/products - - - 200 - application/json;+charset=utf-8 3.3741ms
+][2023-11-02 23:11:14.323 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7179/api/products/3125dd4a-c147-4708-904d-d148a15644f5 - -
+][2023-11-02 23:11:14.323 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:11:14.323 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7179/api/products/3125dd4a-c147-4708-904d-d148a15644f5 - - - 204 - - 0.3682ms
+][2023-11-02 23:11:14.328 +01:00 [INF] Request starting HTTP/2 DELETE https://localhost:7179/api/products/3125dd4a-c147-4708-904d-d148a15644f5 - -
+][2023-11-02 23:11:14.329 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:11:14.329 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.DeleteProducts (back)'
+][2023-11-02 23:11:14.329 +01:00 [INF] Route matched with {action = "DeleteProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteProducts(System.Guid) on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:11:14.332 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+WHERE p."Id" = @__get_Item_0
+LIMIT 1
+][2023-11-02 23:11:14.342 +01:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = @p0;
+][2023-11-02 23:11:14.343 +01:00 [INF] Executing OkObjectResult, writing value of type 'back.Models.Domain.Product'.
+][2023-11-02 23:11:14.343 +01:00 [INF] Executed action back.Controllers.ProductsController.DeleteProducts (back) in 14.1653ms
+][2023-11-02 23:11:14.343 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.DeleteProducts (back)'
+][2023-11-02 23:11:14.344 +01:00 [INF] Request finished HTTP/2 DELETE https://localhost:7179/api/products/3125dd4a-c147-4708-904d-d148a15644f5 - - - 200 - application/json;+charset=utf-8 15.0178ms
+][2023-11-02 23:11:14.354 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/api/products - -
+][2023-11-02 23:11:14.354 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:11:14.354 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:11:14.354 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:11:14.356 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+][2023-11-02 23:11:14.357 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[back.Repositories.ProductEntity, back, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+][2023-11-02 23:11:14.357 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 2.8227ms
+][2023-11-02 23:11:14.357 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:11:14.357 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/api/products - - - 200 - application/json;+charset=utf-8 3.6514ms
+][2023-11-02 23:11:16.404 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7179/api/products/620d7802-d081-4b5f-be3b-7a6d0bab03e2 - -
+][2023-11-02 23:11:16.404 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:11:16.404 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7179/api/products/620d7802-d081-4b5f-be3b-7a6d0bab03e2 - - - 204 - - 0.4032ms
+][2023-11-02 23:11:16.410 +01:00 [INF] Request starting HTTP/2 DELETE https://localhost:7179/api/products/620d7802-d081-4b5f-be3b-7a6d0bab03e2 - -
+][2023-11-02 23:11:16.410 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:11:16.410 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.DeleteProducts (back)'
+][2023-11-02 23:11:16.410 +01:00 [INF] Route matched with {action = "DeleteProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteProducts(System.Guid) on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:11:16.413 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+WHERE p."Id" = @__get_Item_0
+LIMIT 1
+][2023-11-02 23:11:16.416 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = @p0;
+][2023-11-02 23:11:16.417 +01:00 [INF] Executing OkObjectResult, writing value of type 'back.Models.Domain.Product'.
+][2023-11-02 23:11:16.417 +01:00 [INF] Executed action back.Controllers.ProductsController.DeleteProducts (back) in 6.7479ms
+][2023-11-02 23:11:16.417 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.DeleteProducts (back)'
+][2023-11-02 23:11:16.417 +01:00 [INF] Request finished HTTP/2 DELETE https://localhost:7179/api/products/620d7802-d081-4b5f-be3b-7a6d0bab03e2 - - - 200 - application/json;+charset=utf-8 7.4779ms
+][2023-11-02 23:11:16.428 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/api/products - -
+][2023-11-02 23:11:16.428 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:11:16.429 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:11:16.429 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:11:16.430 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+][2023-11-02 23:11:16.431 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[back.Repositories.ProductEntity, back, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+][2023-11-02 23:11:16.431 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 2.5656ms
+][2023-11-02 23:11:16.431 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:11:16.432 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/api/products - - - 200 - application/json;+charset=utf-8 3.4810ms
+][2023-11-02 23:11:18.699 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7179/api/products/bff4042a-e5c6-4527-b2a1-5e6ea8a8eb0b - -
+][2023-11-02 23:11:18.699 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:11:18.700 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7179/api/products/bff4042a-e5c6-4527-b2a1-5e6ea8a8eb0b - - - 204 - - 0.3108ms
+][2023-11-02 23:11:18.705 +01:00 [INF] Request starting HTTP/2 DELETE https://localhost:7179/api/products/bff4042a-e5c6-4527-b2a1-5e6ea8a8eb0b - -
+][2023-11-02 23:11:18.706 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:11:18.706 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.DeleteProducts (back)'
+][2023-11-02 23:11:18.706 +01:00 [INF] Route matched with {action = "DeleteProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteProducts(System.Guid) on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:11:18.710 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+WHERE p."Id" = @__get_Item_0
+LIMIT 1
+][2023-11-02 23:11:18.719 +01:00 [INF] Executed action back.Controllers.ProductsController.DeleteProducts (back) in 12.2431ms
+][2023-11-02 23:11:18.719 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.DeleteProducts (back)'
+][2023-11-02 23:11:18.789 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at back.Repositories.Implementation.UploadRepository.RemoveAsync(String url) in C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back\Repositories\Implementation\UploadRepository.cs:line 24
+   at back.Repositories.Implementation.ProductRepository.DeleteAsync(Guid id) in C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back\Repositories\Implementation\ProductRepository.cs:line 61
+   at back.Controllers.ProductsController.DeleteProducts(Guid id) in C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back\Controllers\ProductController.cs:line 54
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+][2023-11-02 23:11:18.795 +01:00 [INF] Request finished HTTP/2 DELETE https://localhost:7179/api/products/bff4042a-e5c6-4527-b2a1-5e6ea8a8eb0b - - - 500 - text/plain;+charset=utf-8 90.0596ms
+][2023-11-02 23:11:21.732 +01:00 [INF] Request starting HTTP/2 DELETE https://localhost:7179/api/products/bff4042a-e5c6-4527-b2a1-5e6ea8a8eb0b - -
+][2023-11-02 23:11:21.732 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:11:21.732 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.DeleteProducts (back)'
+][2023-11-02 23:11:21.732 +01:00 [INF] Route matched with {action = "DeleteProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteProducts(System.Guid) on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:11:21.735 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+WHERE p."Id" = @__get_Item_0
+LIMIT 1
+][2023-11-02 23:11:21.736 +01:00 [INF] Executed action back.Controllers.ProductsController.DeleteProducts (back) in 3.4866ms
+][2023-11-02 23:11:21.736 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.DeleteProducts (back)'
+][2023-11-02 23:11:21.739 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at back.Repositories.Implementation.UploadRepository.RemoveAsync(String url) in C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back\Repositories\Implementation\UploadRepository.cs:line 24
+   at back.Repositories.Implementation.ProductRepository.DeleteAsync(Guid id) in C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back\Repositories\Implementation\ProductRepository.cs:line 61
+   at back.Controllers.ProductsController.DeleteProducts(Guid id) in C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back\Controllers\ProductController.cs:line 54
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+][2023-11-02 23:11:21.742 +01:00 [INF] Request finished HTTP/2 DELETE https://localhost:7179/api/products/bff4042a-e5c6-4527-b2a1-5e6ea8a8eb0b - - - 500 - text/plain;+charset=utf-8 9.9340ms
+][2023-11-02 23:11:24.955 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/api/products - -
+][2023-11-02 23:11:24.955 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:11:24.956 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:11:24.956 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:11:24.958 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+][2023-11-02 23:11:24.959 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[back.Repositories.ProductEntity, back, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+][2023-11-02 23:11:24.959 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 3.3117ms
+][2023-11-02 23:11:24.959 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:11:24.959 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/api/products - - - 200 - application/json;+charset=utf-8 4.5603ms
+][2023-11-02 23:11:29.835 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7179/api/products/2c1349e6-6d11-4a9d-8d90-02a765308654 - -
+][2023-11-02 23:11:29.835 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:11:29.835 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7179/api/products/2c1349e6-6d11-4a9d-8d90-02a765308654 - - - 204 - - 0.7361ms
+][2023-11-02 23:11:29.841 +01:00 [INF] Request starting HTTP/2 DELETE https://localhost:7179/api/products/2c1349e6-6d11-4a9d-8d90-02a765308654 - -
+][2023-11-02 23:11:29.841 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:11:29.841 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.DeleteProducts (back)'
+][2023-11-02 23:11:29.841 +01:00 [INF] Route matched with {action = "DeleteProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteProducts(System.Guid) on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:11:29.844 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+WHERE p."Id" = @__get_Item_0
+LIMIT 1
+][2023-11-02 23:11:29.851 +01:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = @p0;
+][2023-11-02 23:11:29.852 +01:00 [INF] Executing OkObjectResult, writing value of type 'back.Models.Domain.Product'.
+][2023-11-02 23:11:29.852 +01:00 [INF] Executed action back.Controllers.ProductsController.DeleteProducts (back) in 10.7385ms
+][2023-11-02 23:11:29.852 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.DeleteProducts (back)'
+][2023-11-02 23:11:29.852 +01:00 [INF] Request finished HTTP/2 DELETE https://localhost:7179/api/products/2c1349e6-6d11-4a9d-8d90-02a765308654 - - - 200 - application/json;+charset=utf-8 11.4300ms
+][2023-11-02 23:11:29.862 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/api/products - -
+][2023-11-02 23:11:29.862 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:11:29.862 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:11:29.863 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:11:29.864 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+][2023-11-02 23:11:29.865 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[back.Repositories.ProductEntity, back, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+][2023-11-02 23:11:29.865 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 2.8638ms
+][2023-11-02 23:11:29.865 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:11:29.866 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/api/products - - - 200 - application/json;+charset=utf-8 3.5240ms
+][2023-11-02 23:11:31.923 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7179/api/products/7120b16a-4cb0-4d15-af31-fe6151cd8ef2 - -
+][2023-11-02 23:11:31.923 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:11:31.923 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7179/api/products/7120b16a-4cb0-4d15-af31-fe6151cd8ef2 - - - 204 - - 0.5272ms
+][2023-11-02 23:11:31.929 +01:00 [INF] Request starting HTTP/2 DELETE https://localhost:7179/api/products/7120b16a-4cb0-4d15-af31-fe6151cd8ef2 - -
+][2023-11-02 23:11:31.929 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:11:31.930 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.DeleteProducts (back)'
+][2023-11-02 23:11:31.930 +01:00 [INF] Route matched with {action = "DeleteProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteProducts(System.Guid) on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:11:31.933 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+WHERE p."Id" = @__get_Item_0
+LIMIT 1
+][2023-11-02 23:11:31.941 +01:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = @p0;
+][2023-11-02 23:11:31.942 +01:00 [INF] Executing OkObjectResult, writing value of type 'back.Models.Domain.Product'.
+][2023-11-02 23:11:31.942 +01:00 [INF] Executed action back.Controllers.ProductsController.DeleteProducts (back) in 12.5881ms
+][2023-11-02 23:11:31.942 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.DeleteProducts (back)'
+][2023-11-02 23:11:31.943 +01:00 [INF] Request finished HTTP/2 DELETE https://localhost:7179/api/products/7120b16a-4cb0-4d15-af31-fe6151cd8ef2 - - - 200 - application/json;+charset=utf-8 13.4158ms
+][2023-11-02 23:11:31.952 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/api/products - -
+][2023-11-02 23:11:31.953 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:11:31.953 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:11:31.953 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:11:31.955 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+][2023-11-02 23:11:31.955 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[back.Repositories.ProductEntity, back, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+][2023-11-02 23:11:31.955 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 2.5746ms
+][2023-11-02 23:11:31.955 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:11:31.955 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/api/products - - - 200 - application/json;+charset=utf-8 3.2478ms
+][2023-11-02 23:11:34.146 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7179/api/products/4c5758c2-45ef-4a1f-aa90-1c379e729bf9 - -
+][2023-11-02 23:11:34.146 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:11:34.147 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7179/api/products/4c5758c2-45ef-4a1f-aa90-1c379e729bf9 - - - 204 - - 0.4552ms
+][2023-11-02 23:11:34.152 +01:00 [INF] Request starting HTTP/2 DELETE https://localhost:7179/api/products/4c5758c2-45ef-4a1f-aa90-1c379e729bf9 - -
+][2023-11-02 23:11:34.152 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:11:34.152 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.DeleteProducts (back)'
+][2023-11-02 23:11:34.152 +01:00 [INF] Route matched with {action = "DeleteProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteProducts(System.Guid) on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:11:34.155 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+WHERE p."Id" = @__get_Item_0
+LIMIT 1
+][2023-11-02 23:11:34.163 +01:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = @p0;
+][2023-11-02 23:11:34.163 +01:00 [INF] Executing OkObjectResult, writing value of type 'back.Models.Domain.Product'.
+][2023-11-02 23:11:34.164 +01:00 [INF] Executed action back.Controllers.ProductsController.DeleteProducts (back) in 11.4021ms
+][2023-11-02 23:11:34.164 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.DeleteProducts (back)'
+][2023-11-02 23:11:34.164 +01:00 [INF] Request finished HTTP/2 DELETE https://localhost:7179/api/products/4c5758c2-45ef-4a1f-aa90-1c379e729bf9 - - - 200 - application/json;+charset=utf-8 12.0320ms
+][2023-11-02 23:11:34.175 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/api/products - -
+][2023-11-02 23:11:34.175 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:11:34.175 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:11:34.175 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:11:34.178 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+][2023-11-02 23:11:34.179 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[back.Repositories.ProductEntity, back, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+][2023-11-02 23:11:34.180 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 4.1416ms
+][2023-11-02 23:11:34.180 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:11:34.180 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/api/products - - - 200 - application/json;+charset=utf-8 5.0468ms
+][2023-11-02 23:11:37.098 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7179/api/products/bff4042a-e5c6-4527-b2a1-5e6ea8a8eb0b - -
+][2023-11-02 23:11:37.098 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:11:37.098 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7179/api/products/bff4042a-e5c6-4527-b2a1-5e6ea8a8eb0b - - - 204 - - 0.4669ms
+][2023-11-02 23:11:37.103 +01:00 [INF] Request starting HTTP/2 DELETE https://localhost:7179/api/products/bff4042a-e5c6-4527-b2a1-5e6ea8a8eb0b - -
+][2023-11-02 23:11:37.104 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:11:37.104 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.DeleteProducts (back)'
+][2023-11-02 23:11:37.104 +01:00 [INF] Route matched with {action = "DeleteProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteProducts(System.Guid) on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:11:37.106 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+WHERE p."Id" = @__get_Item_0
+LIMIT 1
+][2023-11-02 23:11:37.107 +01:00 [INF] Executed action back.Controllers.ProductsController.DeleteProducts (back) in 3.0596ms
+][2023-11-02 23:11:37.107 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.DeleteProducts (back)'
+][2023-11-02 23:11:37.109 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at back.Repositories.Implementation.UploadRepository.RemoveAsync(String url) in C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back\Repositories\Implementation\UploadRepository.cs:line 24
+   at back.Repositories.Implementation.ProductRepository.DeleteAsync(Guid id) in C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back\Repositories\Implementation\ProductRepository.cs:line 61
+   at back.Controllers.ProductsController.DeleteProducts(Guid id) in C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back\Controllers\ProductController.cs:line 54
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+][2023-11-02 23:11:37.111 +01:00 [INF] Request finished HTTP/2 DELETE https://localhost:7179/api/products/bff4042a-e5c6-4527-b2a1-5e6ea8a8eb0b - - - 500 - text/plain;+charset=utf-8 7.7007ms
+][2023-11-02 23:11:44.768 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/api/products - -
+][2023-11-02 23:11:44.769 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:11:44.769 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:11:44.769 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:11:44.772 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+][2023-11-02 23:11:44.772 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[back.Repositories.ProductEntity, back, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+][2023-11-02 23:11:44.773 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 3.4997ms
+][2023-11-02 23:11:44.773 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:11:44.773 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/api/products - - - 200 - application/json;+charset=utf-8 4.3267ms
+][2023-11-02 23:16:18.070 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7179/api/products - -
+][2023-11-02 23:16:18.190 +01:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '10/17/2023 9:27:37 AM', Current time (UTC): '11/2/2023 10:16:18 PM'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+][2023-11-02 23:16:18.193 +01:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '10/17/2023 9:27:37 AM', Current time (UTC): '11/2/2023 10:16:18 PM'.
+][2023-11-02 23:16:18.193 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:16:18.193 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:16:18.253 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+][2023-11-02 23:16:18.254 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[back.Repositories.ProductEntity, back, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+][2023-11-02 23:16:18.255 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 61.9014ms
+][2023-11-02 23:16:18.255 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:16:18.256 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7179/api/products - - - 200 - application/json;+charset=utf-8 186.0107ms
+][2023-11-02 23:19:51.843 +01:00 [INF] Application is shutting down...
+][2023-11-02 23:19:59.804 +01:00 [INF] User profile is available. Using 'C:\Users\melyo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+][2023-11-02 23:19:59.944 +01:00 [INF] Now listening on: https://localhost:7179
+][2023-11-02 23:19:59.945 +01:00 [INF] Now listening on: http://localhost:5237
+][2023-11-02 23:19:59.948 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+][2023-11-02 23:19:59.949 +01:00 [INF] Hosting environment: Development
+][2023-11-02 23:19:59.949 +01:00 [INF] Content root path: C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back
+][2023-11-02 23:20:06.179 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7179/api/products - -
+][2023-11-02 23:20:06.347 +01:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '10/17/2023 9:27:37 AM', Current time (UTC): '11/2/2023 10:20:06 PM'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+][2023-11-02 23:20:06.357 +01:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '10/17/2023 9:27:37 AM', Current time (UTC): '11/2/2023 10:20:06 PM'.
+][2023-11-02 23:20:06.362 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:20:06.381 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:20:07.674 +01:00 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+][2023-11-02 23:20:07.775 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[back.Repositories.ProductEntity, back, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+][2023-11-02 23:20:07.827 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 1441.1905ms
+][2023-11-02 23:20:07.828 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:20:07.844 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7179/api/products - - - 200 - application/json;+charset=utf-8 1666.9628ms
+][2023-11-02 23:20:15.108 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7179/api/products - -
+][2023-11-02 23:20:15.113 +01:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '10/17/2023 9:27:37 AM', Current time (UTC): '11/2/2023 10:20:15 PM'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+][2023-11-02 23:20:15.114 +01:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '10/17/2023 9:27:37 AM', Current time (UTC): '11/2/2023 10:20:15 PM'.
+][2023-11-02 23:20:15.114 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:20:15.115 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:20:15.139 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+][2023-11-02 23:20:15.148 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[back.Repositories.ProductEntity, back, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+][2023-11-02 23:20:15.150 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 35.0779ms
+][2023-11-02 23:20:15.150 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:20:15.151 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7179/api/products - - - 200 - application/json;+charset=utf-8 42.9344ms
+][2023-11-02 23:20:21.420 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7179/api/products - -
+][2023-11-02 23:20:21.429 +01:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '10/17/2023 9:27:37 AM', Current time (UTC): '11/2/2023 10:20:21 PM'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+][2023-11-02 23:20:21.431 +01:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '10/17/2023 9:27:37 AM', Current time (UTC): '11/2/2023 10:20:21 PM'.
+][2023-11-02 23:20:21.431 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:20:21.431 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:20:21.531 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+][2023-11-02 23:20:21.532 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[back.Repositories.ProductEntity, back, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+][2023-11-02 23:20:21.532 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 100.6537ms
+][2023-11-02 23:20:21.532 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:20:21.532 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7179/api/products - - - 200 - application/json;+charset=utf-8 112.7190ms
+][2023-11-02 23:20:26.868 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/api/products - -
+][2023-11-02 23:20:26.871 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:20:26.872 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:20:26.872 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:20:26.875 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+][2023-11-02 23:20:26.876 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[back.Repositories.ProductEntity, back, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+][2023-11-02 23:20:26.879 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 6.1342ms
+][2023-11-02 23:20:26.879 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:20:26.879 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/api/products - - - 200 - application/json;+charset=utf-8 11.1905ms
+][2023-11-02 23:26:10.980 +01:00 [INF] Application is shutting down...
+][2023-11-02 23:26:16.190 +01:00 [INF] User profile is available. Using 'C:\Users\melyo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+][2023-11-02 23:26:16.330 +01:00 [INF] Now listening on: https://localhost:7179
+][2023-11-02 23:26:16.330 +01:00 [INF] Now listening on: http://localhost:5237
+][2023-11-02 23:26:16.334 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+][2023-11-02 23:26:16.335 +01:00 [INF] Hosting environment: Development
+][2023-11-02 23:26:16.335 +01:00 [INF] Content root path: C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back
+][2023-11-02 23:26:19.888 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/api/products - -
+][2023-11-02 23:26:19.959 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:26:19.997 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:26:20.017 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:26:21.138 +01:00 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+][2023-11-02 23:26:21.239 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[back.Repositories.ProductEntity, back, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+][2023-11-02 23:26:21.283 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 1262.1975ms
+][2023-11-02 23:26:21.284 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:26:21.295 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/api/products - - - 200 - application/json;+charset=utf-8 1409.2163ms
+][2023-11-02 23:26:21.317 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/Uploads/Products/bff4042a-e5c6-4527-b2a1-5e6ea8a8eb0b.jpg - -
+][2023-11-02 23:26:21.322 +01:00 [INF] The file /Uploads/Products/bff4042a-e5c6-4527-b2a1-5e6ea8a8eb0b.jpg was not modified
+][2023-11-02 23:26:21.323 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/Uploads/Products/bff4042a-e5c6-4527-b2a1-5e6ea8a8eb0b.jpg - - - 304 - image/jpeg 6.4423ms
+][2023-11-02 23:26:27.498 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/api/products/bff4042a-e5c6-4527-b2a1-5e6ea8a8eb0b - -
+][2023-11-02 23:26:27.503 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:26:27.507 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:26:27.528 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(System.Guid) on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:26:27.729 +01:00 [INF] Executed DbCommand (11ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+WHERE p."Id" = @__get_Item_0
+LIMIT 1
+][2023-11-02 23:26:27.734 +01:00 [INF] Executing OkObjectResult, writing value of type 'back.Models.Domain.Product'.
+][2023-11-02 23:26:27.741 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 212.607ms
+][2023-11-02 23:26:27.741 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:26:27.744 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/api/products/bff4042a-e5c6-4527-b2a1-5e6ea8a8eb0b - - - 200 - application/json;+charset=utf-8 246.1520ms
+][2023-11-02 23:26:30.897 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/api/products - -
+][2023-11-02 23:26:30.899 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:26:30.905 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:26:30.906 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:26:30.994 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+][2023-11-02 23:26:30.996 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[back.Repositories.ProductEntity, back, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+][2023-11-02 23:26:30.996 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 90.1748ms
+][2023-11-02 23:26:30.996 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:26:30.996 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/api/products - - - 200 - application/json;+charset=utf-8 100.1898ms
+][2023-11-02 23:26:31.831 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/api/products/bff4042a-e5c6-4527-b2a1-5e6ea8a8eb0b - -
+][2023-11-02 23:26:31.832 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:26:31.832 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:26:31.832 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(System.Guid) on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:26:31.844 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+WHERE p."Id" = @__get_Item_0
+LIMIT 1
+][2023-11-02 23:26:31.845 +01:00 [INF] Executing OkObjectResult, writing value of type 'back.Models.Domain.Product'.
+][2023-11-02 23:26:31.845 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 13.4235ms
+][2023-11-02 23:26:31.846 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:26:31.846 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/api/products/bff4042a-e5c6-4527-b2a1-5e6ea8a8eb0b - - - 200 - application/json;+charset=utf-8 14.9316ms
+][2023-11-02 23:26:34.127 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/api/products - -
+][2023-11-02 23:26:34.127 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:26:34.128 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:26:34.128 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:26:34.132 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+][2023-11-02 23:26:34.133 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[back.Repositories.ProductEntity, back, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+][2023-11-02 23:26:34.133 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 5.3456ms
+][2023-11-02 23:26:34.134 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:26:34.134 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/api/products - - - 200 - application/json;+charset=utf-8 7.5424ms
+][2023-11-02 23:26:38.837 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7179/api/products/bff4042a-e5c6-4527-b2a1-5e6ea8a8eb0b - -
+][2023-11-02 23:26:38.838 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:26:38.839 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7179/api/products/bff4042a-e5c6-4527-b2a1-5e6ea8a8eb0b - - - 204 - - 1.0641ms
+][2023-11-02 23:26:38.844 +01:00 [INF] Request starting HTTP/2 DELETE https://localhost:7179/api/products/bff4042a-e5c6-4527-b2a1-5e6ea8a8eb0b - -
+][2023-11-02 23:26:38.844 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:26:38.845 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.DeleteProducts (back)'
+][2023-11-02 23:26:38.849 +01:00 [INF] Route matched with {action = "DeleteProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteProducts(System.Guid) on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:26:38.854 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+WHERE p."Id" = @__get_Item_0
+LIMIT 1
+][2023-11-02 23:26:38.858 +01:00 [INF] Executed action back.Controllers.ProductsController.DeleteProducts (back) in 8.4492ms
+][2023-11-02 23:26:38.858 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.DeleteProducts (back)'
+][2023-11-02 23:26:38.884 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at back.Repositories.Implementation.UploadRepository.RemoveAsync(String url) in C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back\Repositories\Implementation\UploadRepository.cs:line 24
+   at back.Repositories.Implementation.ProductRepository.DeleteAsync(Guid id) in C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back\Repositories\Implementation\ProductRepository.cs:line 61
+   at back.Controllers.ProductsController.DeleteProducts(Guid id) in C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back\Controllers\ProductController.cs:line 54
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+][2023-11-02 23:26:38.889 +01:00 [INF] Request finished HTTP/2 DELETE https://localhost:7179/api/products/bff4042a-e5c6-4527-b2a1-5e6ea8a8eb0b - - - 500 - text/plain;+charset=utf-8 44.4855ms
+][2023-11-02 23:34:10.494 +01:00 [INF] Application is shutting down...
+][2023-11-02 23:51:27.692 +01:00 [INF] User profile is available. Using 'C:\Users\melyo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+][2023-11-02 23:51:28.171 +01:00 [INF] Now listening on: https://localhost:7179
+][2023-11-02 23:51:28.172 +01:00 [INF] Now listening on: http://localhost:5237
+][2023-11-02 23:51:28.177 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+][2023-11-02 23:51:28.177 +01:00 [INF] Hosting environment: Development
+][2023-11-02 23:51:28.178 +01:00 [INF] Content root path: C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back
+][2023-11-02 23:51:42.615 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7179/api/products multipart/form-data;+boundary=----WebKitFormBoundarygoNJoXJ02pI85dVb 667
+][2023-11-02 23:51:42.676 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:51:43.713 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.CreateProducts (back)'
+][2023-11-02 23:51:43.740 +01:00 [INF] Route matched with {action = "CreateProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateProducts(Microsoft.AspNetCore.Http.IFormFile, back.Models.Domain.Product) on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:51:44.512 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+][2023-11-02 23:51:44.535 +01:00 [INF] Executed action back.Controllers.ProductsController.CreateProducts (back) in 790.3923ms
+][2023-11-02 23:51:44.536 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.CreateProducts (back)'
+][2023-11-02 23:51:44.540 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7179/api/products multipart/form-data;+boundary=----WebKitFormBoundarygoNJoXJ02pI85dVb 667 - 400 - application/problem+json;+charset=utf-8 1928.9329ms
+][2023-11-02 23:52:01.965 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7179/api/products multipart/form-data;+boundary=----WebKitFormBoundaryOeZqEhigd7uM4xfB 290429
+][2023-11-02 23:52:01.967 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:52:01.970 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.CreateProducts (back)'
+][2023-11-02 23:52:01.970 +01:00 [INF] Route matched with {action = "CreateProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateProducts(Microsoft.AspNetCore.Http.IFormFile, back.Models.Domain.Product) on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:52:03.165 +01:00 [INF] Executed DbCommand (44ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?', @p5='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "Description", "PublishedDate", "Thumbnail", "Title", "Visibility")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+][2023-11-02 23:52:03.195 +01:00 [INF] Executing OkObjectResult, writing value of type 'back.Models.Domain.Product'.
+][2023-11-02 23:52:03.221 +01:00 [INF] Executed action back.Controllers.ProductsController.CreateProducts (back) in 1250.855ms
+][2023-11-02 23:52:03.222 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.CreateProducts (back)'
+][2023-11-02 23:52:03.245 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7179/api/products multipart/form-data;+boundary=----WebKitFormBoundaryOeZqEhigd7uM4xfB 290429 - 200 - application/json;+charset=utf-8 1279.7614ms
+][2023-11-02 23:52:03.279 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/api/products - -
+][2023-11-02 23:52:03.287 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:52:03.291 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:52:03.299 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:52:03.608 +01:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+][2023-11-02 23:52:03.634 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[back.Repositories.ProductEntity, back, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+][2023-11-02 23:52:03.638 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 337.952ms
+][2023-11-02 23:52:03.638 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:52:03.639 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/api/products - - - 200 - application/json;+charset=utf-8 360.1219ms
+][2023-11-02 23:52:03.678 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/Uploads/Products/edecf548-ef12-4aaf-ade5-1bd7c4dad834.jpg - -
+][2023-11-02 23:52:03.751 +01:00 [INF] Sending file. Request path: '/Uploads/Products/edecf548-ef12-4aaf-ade5-1bd7c4dad834.jpg'. Physical path: 'C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back\wwwroot\Uploads\Products\edecf548-ef12-4aaf-ade5-1bd7c4dad834.jpg'
+][2023-11-02 23:52:03.751 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/Uploads/Products/edecf548-ef12-4aaf-ade5-1bd7c4dad834.jpg - - - 200 289712 image/jpeg 73.0135ms
+][2023-11-02 23:52:08.629 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/api/blogposts - -
+][2023-11-02 23:52:08.629 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:52:08.629 +01:00 [INF] Executing endpoint 'back.Controllers.BlogPostsController.GetBlogPosts (back)'
+][2023-11-02 23:52:08.635 +01:00 [INF] Route matched with {action = "GetBlogPosts", controller = "BlogPosts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetBlogPosts() on controller back.Controllers.BlogPostsController (back).
+][2023-11-02 23:52:08.678 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT b."Id", b."Author", b."Content", b."FeaturedImageUrl", b."IsVisible", b."PublishedDate", b."ShortDescription", b."Title", b."UrlHandle"
+FROM "BlogPosts" AS b
+][2023-11-02 23:52:08.700 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[back.Models.Domain.BlogPost, back, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+][2023-11-02 23:52:08.705 +01:00 [INF] Executed action back.Controllers.BlogPostsController.GetBlogPosts (back) in 68.9247ms
+][2023-11-02 23:52:08.706 +01:00 [INF] Executed endpoint 'back.Controllers.BlogPostsController.GetBlogPosts (back)'
+][2023-11-02 23:52:08.706 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/api/blogposts - - - 200 - application/json;+charset=utf-8 77.1125ms
+][2023-11-02 23:52:08.755 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/Uploads/BlogPosts/eff5788a-85d1-47e9-bd50-54ee37ef2adc.jpg - -
+][2023-11-02 23:52:08.755 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/Uploads/BlogPosts/062c84ec-9496-4155-b63d-2f8db43f8281.jpeg - -
+][2023-11-02 23:52:08.755 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/Uploads/Products/72cbdd95-bad9-496e-a038-d415d8921a9e.jpg - -
+][2023-11-02 23:52:08.755 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/Uploads/BlogPosts/deda9d2f-6523-4f12-8807-37fcdda87e8d.png - -
+][2023-11-02 23:52:08.755 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/Uploads/Products/8419d1bb-603f-466e-b330-c9019287de8f.jpg - -
+][2023-11-02 23:52:08.757 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/Uploads/Products/8419d1bb-603f-466e-b330-c9019287de8f.jpg - - - 404 0 - 1.3028ms
+][2023-11-02 23:52:08.757 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/Uploads/Products/72cbdd95-bad9-496e-a038-d415d8921a9e.jpg - - - 404 0 - 1.6054ms
+][2023-11-02 23:52:08.800 +01:00 [INF] Sending file. Request path: '/Uploads/BlogPosts/deda9d2f-6523-4f12-8807-37fcdda87e8d.png'. Physical path: 'C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back\wwwroot\Uploads\BlogPosts\deda9d2f-6523-4f12-8807-37fcdda87e8d.png'
+][2023-11-02 23:52:08.801 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/Uploads/BlogPosts/deda9d2f-6523-4f12-8807-37fcdda87e8d.png - - - 200 470652 image/png 45.7207ms
+][2023-11-02 23:52:08.907 +01:00 [INF] Sending file. Request path: '/Uploads/BlogPosts/eff5788a-85d1-47e9-bd50-54ee37ef2adc.jpg'. Physical path: 'C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back\wwwroot\Uploads\BlogPosts\eff5788a-85d1-47e9-bd50-54ee37ef2adc.jpg'
+][2023-11-02 23:52:08.907 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/Uploads/BlogPosts/eff5788a-85d1-47e9-bd50-54ee37ef2adc.jpg - - - 200 2382463 image/jpeg 152.3817ms
+][2023-11-02 23:52:08.952 +01:00 [INF] Sending file. Request path: '/Uploads/BlogPosts/062c84ec-9496-4155-b63d-2f8db43f8281.jpeg'. Physical path: 'C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back\wwwroot\Uploads\BlogPosts\062c84ec-9496-4155-b63d-2f8db43f8281.jpeg'
+][2023-11-02 23:52:08.953 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/Uploads/BlogPosts/062c84ec-9496-4155-b63d-2f8db43f8281.jpeg - - - 200 4531763 image/jpeg 197.6954ms
+][2023-11-02 23:52:46.467 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/api/products - -
+][2023-11-02 23:52:46.468 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:52:46.468 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:52:46.468 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:52:46.471 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+][2023-11-02 23:52:46.472 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[back.Repositories.ProductEntity, back, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+][2023-11-02 23:52:46.473 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 4.586ms
+][2023-11-02 23:52:46.473 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:52:46.473 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/api/products - - - 200 - application/json;+charset=utf-8 5.7775ms
+][2023-11-02 23:52:55.454 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7179/api/products/edecf548-ef12-4aaf-ade5-1bd7c4dad834 - -
+][2023-11-02 23:52:55.454 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:52:55.456 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7179/api/products/edecf548-ef12-4aaf-ade5-1bd7c4dad834 - - - 204 - - 2.0212ms
+][2023-11-02 23:52:55.465 +01:00 [INF] Request starting HTTP/2 DELETE https://localhost:7179/api/products/edecf548-ef12-4aaf-ade5-1bd7c4dad834 - -
+][2023-11-02 23:52:55.465 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:52:55.465 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.DeleteProducts (back)'
+][2023-11-02 23:52:55.472 +01:00 [INF] Route matched with {action = "DeleteProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteProducts(System.Guid) on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:52:55.610 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+WHERE p."Id" = @__get_Item_0
+LIMIT 1
+][2023-11-02 23:52:55.625 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = @p0;
+][2023-11-02 23:52:55.631 +01:00 [INF] Executing OkObjectResult, writing value of type 'back.Models.Domain.Product'.
+][2023-11-02 23:52:55.631 +01:00 [INF] Executed action back.Controllers.ProductsController.DeleteProducts (back) in 159.0834ms
+][2023-11-02 23:52:55.631 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.DeleteProducts (back)'
+][2023-11-02 23:52:55.631 +01:00 [INF] Request finished HTTP/2 DELETE https://localhost:7179/api/products/edecf548-ef12-4aaf-ade5-1bd7c4dad834 - - - 200 - application/json;+charset=utf-8 166.5076ms
+][2023-11-02 23:52:55.645 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/api/products - -
+][2023-11-02 23:52:55.649 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:52:55.671 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:52:55.671 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:52:55.675 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+][2023-11-02 23:52:55.676 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[back.Repositories.ProductEntity, back, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+][2023-11-02 23:52:55.677 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 5.9116ms
+][2023-11-02 23:52:55.677 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:52:55.677 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/api/products - - - 200 - application/json;+charset=utf-8 32.3578ms
+][2023-11-02 23:55:24.057 +01:00 [INF] Application is shutting down...
+][2023-11-02 23:55:29.046 +01:00 [INF] User profile is available. Using 'C:\Users\melyo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+][2023-11-02 23:55:29.179 +01:00 [INF] Now listening on: https://localhost:7179
+][2023-11-02 23:55:29.180 +01:00 [INF] Now listening on: http://localhost:5237
+][2023-11-02 23:55:29.183 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+][2023-11-02 23:55:29.183 +01:00 [INF] Hosting environment: Development
+][2023-11-02 23:55:29.183 +01:00 [INF] Content root path: C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back
+][2023-11-02 23:55:37.749 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/api/products - -
+][2023-11-02 23:55:37.805 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:55:37.840 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:55:37.862 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:55:39.096 +01:00 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+][2023-11-02 23:55:39.212 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[back.Repositories.ProductEntity, back, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+][2023-11-02 23:55:39.261 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 1392.1456ms
+][2023-11-02 23:55:39.262 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:55:39.274 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/api/products - - - 200 - application/json;+charset=utf-8 1528.1277ms
+][2023-11-02 23:55:42.969 +01:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7179/api/products/bff4042a-e5c6-4527-b2a1-5e6ea8a8eb0b - -
+][2023-11-02 23:55:42.973 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:55:42.974 +01:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7179/api/products/bff4042a-e5c6-4527-b2a1-5e6ea8a8eb0b - - - 204 - - 5.0437ms
+][2023-11-02 23:55:42.980 +01:00 [INF] Request starting HTTP/2 DELETE https://localhost:7179/api/products/bff4042a-e5c6-4527-b2a1-5e6ea8a8eb0b - -
+][2023-11-02 23:55:42.982 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:55:42.983 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.DeleteProducts (back)'
+][2023-11-02 23:55:42.995 +01:00 [INF] Route matched with {action = "DeleteProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteProducts(System.Guid) on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:55:43.164 +01:00 [INF] Executed DbCommand (10ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+WHERE p."Id" = @__get_Item_0
+LIMIT 1
+][2023-11-02 23:55:43.254 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Products"
+WHERE "Id" = @p0;
+][2023-11-02 23:55:43.265 +01:00 [INF] Executing OkObjectResult, writing value of type 'back.Models.Domain.Product'.
+][2023-11-02 23:55:43.271 +01:00 [INF] Executed action back.Controllers.ProductsController.DeleteProducts (back) in 275.612ms
+][2023-11-02 23:55:43.271 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.DeleteProducts (back)'
+][2023-11-02 23:55:43.272 +01:00 [INF] Request finished HTTP/2 DELETE https://localhost:7179/api/products/bff4042a-e5c6-4527-b2a1-5e6ea8a8eb0b - - - 200 - application/json;+charset=utf-8 291.4225ms
+][2023-11-02 23:55:43.283 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/api/products - -
+][2023-11-02 23:55:43.284 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:55:43.288 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:55:43.289 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:55:43.365 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+][2023-11-02 23:55:43.366 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[back.Repositories.ProductEntity, back, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+][2023-11-02 23:55:43.366 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 77.1806ms
+][2023-11-02 23:55:43.366 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:55:43.366 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/api/products - - - 200 - application/json;+charset=utf-8 82.9951ms
+][2023-11-02 23:56:02.986 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7179/api/products multipart/form-data;+boundary=----WebKitFormBoundaryofSO7Zp03ASXT1K0 416229
+][2023-11-02 23:56:02.987 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:56:02.987 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.CreateProducts (back)'
+][2023-11-02 23:56:02.996 +01:00 [INF] Route matched with {action = "CreateProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateProducts(Microsoft.AspNetCore.Http.IFormFile, back.Models.Domain.Product) on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:56:03.110 +01:00 [INF] Executed DbCommand (14ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?', @p5='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "Description", "PublishedDate", "Thumbnail", "Title", "Visibility")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+][2023-11-02 23:56:03.112 +01:00 [INF] Executing OkObjectResult, writing value of type 'back.Models.Domain.Product'.
+][2023-11-02 23:56:03.113 +01:00 [INF] Executed action back.Controllers.ProductsController.CreateProducts (back) in 116.7523ms
+][2023-11-02 23:56:03.113 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.CreateProducts (back)'
+][2023-11-02 23:56:03.114 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7179/api/products multipart/form-data;+boundary=----WebKitFormBoundaryofSO7Zp03ASXT1K0 416229 - 200 - application/json;+charset=utf-8 127.9789ms
+][2023-11-02 23:56:03.171 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/api/products - -
+][2023-11-02 23:56:03.172 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:56:03.172 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:56:03.172 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:56:03.174 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+][2023-11-02 23:56:03.175 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[back.Repositories.ProductEntity, back, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+][2023-11-02 23:56:03.178 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 5.6002ms
+][2023-11-02 23:56:03.178 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:56:03.178 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/api/products - - - 200 - application/json;+charset=utf-8 7.0529ms
+][2023-11-02 23:56:03.209 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/Uploads/Products/9e1299dc-1200-4aad-b60b-1200a12f9655.jpg - -
+][2023-11-02 23:56:03.239 +01:00 [INF] Sending file. Request path: '/Uploads/Products/9e1299dc-1200-4aad-b60b-1200a12f9655.jpg'. Physical path: 'C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back\wwwroot\Uploads\Products\9e1299dc-1200-4aad-b60b-1200a12f9655.jpg'
+][2023-11-02 23:56:03.239 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/Uploads/Products/9e1299dc-1200-4aad-b60b-1200a12f9655.jpg - - - 200 415512 image/jpeg 29.5004ms
+][2023-11-02 23:56:11.490 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7179/api/products multipart/form-data;+boundary=----WebKitFormBoundary0unM5qDYiANA1LQS 589654
+][2023-11-02 23:56:11.490 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:56:11.490 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.CreateProducts (back)'
+][2023-11-02 23:56:11.490 +01:00 [INF] Route matched with {action = "CreateProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateProducts(Microsoft.AspNetCore.Http.IFormFile, back.Models.Domain.Product) on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:56:11.514 +01:00 [INF] Executed DbCommand (7ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?', @p5='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "Description", "PublishedDate", "Thumbnail", "Title", "Visibility")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+][2023-11-02 23:56:11.515 +01:00 [INF] Executing OkObjectResult, writing value of type 'back.Models.Domain.Product'.
+][2023-11-02 23:56:11.515 +01:00 [INF] Executed action back.Controllers.ProductsController.CreateProducts (back) in 24.5793ms
+][2023-11-02 23:56:11.515 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.CreateProducts (back)'
+][2023-11-02 23:56:11.516 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7179/api/products multipart/form-data;+boundary=----WebKitFormBoundary0unM5qDYiANA1LQS 589654 - 200 - application/json;+charset=utf-8 26.0713ms
+][2023-11-02 23:56:11.563 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/api/products - -
+][2023-11-02 23:56:11.563 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:56:11.564 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:56:11.564 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:56:11.569 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+][2023-11-02 23:56:11.570 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[back.Repositories.ProductEntity, back, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+][2023-11-02 23:56:11.570 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 5.5522ms
+][2023-11-02 23:56:11.570 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:56:11.571 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/api/products - - - 200 - application/json;+charset=utf-8 7.6847ms
+][2023-11-02 23:56:11.620 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/Uploads/Products/450014d9-700d-436c-9c80-cda8e9379e9b.jpg - -
+][2023-11-02 23:56:11.634 +01:00 [INF] Sending file. Request path: '/Uploads/Products/450014d9-700d-436c-9c80-cda8e9379e9b.jpg'. Physical path: 'C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back\wwwroot\Uploads\Products\450014d9-700d-436c-9c80-cda8e9379e9b.jpg'
+][2023-11-02 23:56:11.634 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/Uploads/Products/450014d9-700d-436c-9c80-cda8e9379e9b.jpg - - - 200 588937 image/jpeg 13.9473ms
+][2023-11-02 23:56:41.875 +01:00 [INF] Application is shutting down...
+][2023-11-02 23:56:48.820 +01:00 [INF] User profile is available. Using 'C:\Users\melyo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+][2023-11-02 23:56:49.074 +01:00 [INF] Now listening on: https://localhost:7179
+][2023-11-02 23:56:49.076 +01:00 [INF] Now listening on: http://localhost:5237
+][2023-11-02 23:56:49.082 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+][2023-11-02 23:56:49.085 +01:00 [INF] Hosting environment: Development
+][2023-11-02 23:56:49.087 +01:00 [INF] Content root path: C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back
+][2023-11-02 23:56:50.723 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/swagger - -
+][2023-11-02 23:56:50.988 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/swagger - - - 301 0 - 267.2570ms
+][2023-11-02 23:56:51.029 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/swagger/index.html - -
+][2023-11-02 23:56:51.498 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/swagger/swagger-ui.css - -
+][2023-11-02 23:56:51.518 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/swagger/index.html - - - 200 - text/html;charset=utf-8 488.9287ms
+][2023-11-02 23:56:51.543 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+][2023-11-02 23:56:51.543 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/swagger/swagger-ui.css - - - 200 144929 text/css 45.1451ms
+][2023-11-02 23:56:51.830 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/swagger/swagger-ui-bundle.js - -
+][2023-11-02 23:56:51.831 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/_vs/browserLink - -
+][2023-11-02 23:56:51.830 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/swagger/swagger-ui-standalone-preset.js - -
+][2023-11-02 23:56:51.831 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/_framework/aspnetcore-browser-refresh.js - -
+][2023-11-02 23:56:51.868 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/_framework/aspnetcore-browser-refresh.js - - - 200 12340 application/javascript;+charset=utf-8 36.9476ms
+][2023-11-02 23:56:51.871 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+][2023-11-02 23:56:51.872 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 41.3795ms
+][2023-11-02 23:56:51.912 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+][2023-11-02 23:56:51.912 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 81.9374ms
+][2023-11-02 23:56:51.930 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 99.3622ms
+][2023-11-02 23:56:52.321 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/swagger/v1/swagger.json - -
+][2023-11-02 23:56:52.359 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/swagger/favicon-32x32.png - -
+][2023-11-02 23:56:52.360 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+][2023-11-02 23:56:52.367 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/swagger/favicon-32x32.png - - - 200 628 image/png 8.1682ms
+][2023-11-02 23:56:52.522 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 200.9301ms
+][2023-11-02 23:57:08.494 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/api/products/9e1299dc-1200-4aad-b60b-1200a12f9655 - -
+][2023-11-02 23:57:08.508 +01:00 [INF] CORS policy execution successful.
+][2023-11-02 23:57:08.680 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:57:08.724 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts(System.Guid) on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:57:10.580 +01:00 [INF] Executed DbCommand (34ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+WHERE p."Id" = @__get_Item_0
+LIMIT 1
+][2023-11-02 23:57:10.683 +01:00 [INF] Executing OkObjectResult, writing value of type 'back.Models.Domain.Product'.
+][2023-11-02 23:57:10.709 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 1979.375ms
+][2023-11-02 23:57:10.710 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-11-02 23:57:10.723 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/api/products/9e1299dc-1200-4aad-b60b-1200a12f9655 - - - 200 - application/json;+charset=utf-8 2228.6268ms
+][2023-11-02 23:57:36.982 +01:00 [INF] Request starting HTTP/2 DELETE https://localhost:7179/api/Products/9e1299dc-1200-4aad-b60b-1200a12f9655 - -
+][2023-11-02 23:57:36.989 +01:00 [INF] CORS policy execution failed.
+][2023-11-02 23:57:36.989 +01:00 [INF] Request origin https://localhost:7179 does not have permission to access the resource.
+][2023-11-02 23:57:36.994 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.DeleteProducts (back)'
+][2023-11-02 23:57:37.006 +01:00 [INF] Route matched with {action = "DeleteProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteProducts(System.Guid) on controller back.Controllers.ProductsController (back).
+][2023-11-02 23:57:37.094 +01:00 [INF] Executed DbCommand (11ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+WHERE p."Id" = @__get_Item_0
+LIMIT 1
+]

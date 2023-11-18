@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\melyo\\Documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\wwwroot\\Uploads\\BlogPosts\\0dbc8cb1-a1c3-4f75-8f78-8c33e07175db\\1.png",
+      "PackagePath": "staticwebassets\\Uploads\\BlogPosts\\0dbc8cb1-a1c3-4f75-8f78-8c33e07175db\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\melyo\\Documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\wwwroot\\Uploads\\BlogPosts\\7a366330-dad1-4570-9aae-7bff3e86e8e3\\1.png",
+      "PackagePath": "staticwebassets\\Uploads\\BlogPosts\\7a366330-dad1-4570-9aae-7bff3e86e8e3\\1.png"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\win-x86\\staticwebassets\\msbuild.back.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\win-x86\\staticwebassets\\msbuild.build.back.props",
+      "PackagePath": "build\\back.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\win-x86\\staticwebassets\\msbuild.buildMultiTargeting.back.props",
+      "PackagePath": "buildMultiTargeting\\back.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\win-x86\\staticwebassets\\msbuild.buildTransitive.back.props",
+      "PackagePath": "buildTransitive\\back.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

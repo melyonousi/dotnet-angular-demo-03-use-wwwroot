@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "q1oI0CR5BSRlmSznlFgNg71B8lAeTqtdHvgzM752dts=",
+  "Source": "back",
+  "BasePath": "_content/back",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "back\\wwwroot",
+      "Source": "back",
+      "ContentRoot": "C:\\Users\\melyo\\Documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\wwwroot\\",
+      "BasePath": "_content/back",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\melyo\\Documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\wwwroot\\Uploads\\Common\\no_image.png",
+      "SourceId": "back",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melyo\\Documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\wwwroot\\",
+      "BasePath": "_content/back",
+      "RelativePath": "Uploads/Common/no_image.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Common\\no_image.png"
+    },
+    {
+      "Identity": "C:\\Users\\melyo\\Documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\wwwroot\\Uploads\\Products\\c7a2cb23-9ac1-4967-890f-7d18e6997727.jpg",
+      "SourceId": "back",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melyo\\Documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\wwwroot\\",
+      "BasePath": "_content/back",
+      "RelativePath": "Uploads/Products/c7a2cb23-9ac1-4967-890f-7d18e6997727.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Products\\c7a2cb23-9ac1-4967-890f-7d18e6997727.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\melyo\\Documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\wwwroot\\Uploads\\Products\\cba0382e-959f-4e99-a266-9257a0a63a95.jpg",
+      "SourceId": "back",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\melyo\\Documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\wwwroot\\",
+      "BasePath": "_content/back",
+      "RelativePath": "Uploads/Products/cba0382e-959f-4e99-a266-9257a0a63a95.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Products\\cba0382e-959f-4e99-a266-9257a0a63a95.jpg"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+[2023-10-25 23:09:36.457 +01:00 [INF] User profile is available. Using 'C:\Users\melyo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+][2023-10-25 23:09:36.834 +01:00 [INF] Now listening on: https://localhost:7179
+][2023-10-25 23:09:36.835 +01:00 [INF] Now listening on: http://localhost:5237
+][2023-10-25 23:09:36.837 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+][2023-10-25 23:09:36.837 +01:00 [INF] Hosting environment: Development
+][2023-10-25 23:09:36.837 +01:00 [INF] Content root path: C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back
+][2023-10-25 23:09:37.303 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/swagger/index.html - -
+][2023-10-25 23:09:37.478 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/swagger/index.html - - - 200 - text/html;charset=utf-8 177.0871ms
+][2023-10-25 23:09:37.508 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/_framework/aspnetcore-browser-refresh.js - -
+][2023-10-25 23:09:37.517 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 8.2475ms
+][2023-10-25 23:09:37.825 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/swagger/v1/swagger.json - -
+][2023-10-25 23:09:37.947 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 121.0669ms
+][2023-10-25 23:14:04.851 +01:00 [INF] Application is shutting down...
+][2023-10-25 23:14:19.186 +01:00 [INF] User profile is available. Using 'C:\Users\melyo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+][2023-10-25 23:14:19.328 +01:00 [INF] Now listening on: https://localhost:7179
+][2023-10-25 23:14:19.328 +01:00 [INF] Now listening on: http://localhost:5237
+][2023-10-25 23:14:19.331 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+][2023-10-25 23:14:19.332 +01:00 [INF] Hosting environment: Development
+][2023-10-25 23:14:19.332 +01:00 [INF] Content root path: C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back
+][2023-10-25 23:14:19.691 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/swagger/index.html - -
+][2023-10-25 23:14:19.861 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/swagger/index.html - - - 200 - text/html;charset=utf-8 170.6477ms
+][2023-10-25 23:14:20.151 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/_framework/aspnetcore-browser-refresh.js - -
+][2023-10-25 23:14:20.158 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/_framework/aspnetcore-browser-refresh.js - - - 200 12328 application/javascript;+charset=utf-8 7.0518ms
+][2023-10-25 23:14:20.387 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/swagger/v1/swagger.json - -
+][2023-10-25 23:14:20.578 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 191.6727ms
+][2023-10-25 23:14:42.755 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/api/products - -
+][2023-10-25 23:14:42.774 +01:00 [INF] CORS policy execution successful.
+][2023-10-25 23:14:42.857 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-10-25 23:14:42.894 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller back.Controllers.ProductsController (back).
+][2023-10-25 23:14:44.835 +01:00 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+][2023-10-25 23:14:44.952 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[back.Repositories.ProductEntity, back, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+][2023-10-25 23:14:44.977 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 2077.9095ms
+][2023-10-25 23:14:44.978 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-10-25 23:14:44.985 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/api/products - - - 200 - application/json;+charset=utf-8 2229.9683ms
+][2023-10-25 23:14:45.007 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/Uploads/Products/2c1349e6-6d11-4a9d-8d90-02a765308654.jpg - -
+][2023-10-25 23:14:45.007 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/Uploads/Products/4c5758c2-45ef-4a1f-aa90-1c379e729bf9.jpeg - -
+][2023-10-25 23:14:45.007 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/Uploads/Products/7120b16a-4cb0-4d15-af31-fe6151cd8ef2.jpg - -
+][2023-10-25 23:14:45.052 +01:00 [INF] Sending file. Request path: '/Uploads/Products/2c1349e6-6d11-4a9d-8d90-02a765308654.jpg'. Physical path: 'C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back\wwwroot\Uploads\Products\2c1349e6-6d11-4a9d-8d90-02a765308654.jpg'
+][2023-10-25 23:14:45.052 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/Uploads/Products/2c1349e6-6d11-4a9d-8d90-02a765308654.jpg - - - 200 377690 image/jpeg 45.3641ms
+][2023-10-25 23:14:45.118 +01:00 [INF] Sending file. Request path: '/Uploads/Products/7120b16a-4cb0-4d15-af31-fe6151cd8ef2.jpg'. Physical path: 'C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back\wwwroot\Uploads\Products\7120b16a-4cb0-4d15-af31-fe6151cd8ef2.jpg'
+][2023-10-25 23:14:45.118 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/Uploads/Products/7120b16a-4cb0-4d15-af31-fe6151cd8ef2.jpg - - - 200 2168543 image/jpeg 110.7117ms
+][2023-10-25 23:14:45.176 +01:00 [INF] Sending file. Request path: '/Uploads/Products/4c5758c2-45ef-4a1f-aa90-1c379e729bf9.jpeg'. Physical path: 'C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back\wwwroot\Uploads\Products\4c5758c2-45ef-4a1f-aa90-1c379e729bf9.jpeg'
+][2023-10-25 23:14:45.176 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/Uploads/Products/4c5758c2-45ef-4a1f-aa90-1c379e729bf9.jpeg - - - 200 4531763 image/jpeg 169.0876ms
+][2023-10-25 23:15:05.314 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7179/api/products multipart/form-data;+boundary=----WebKitFormBoundary6lB5nXwV0ErdE3Bz 781922
+][2023-10-25 23:15:05.317 +01:00 [INF] CORS policy execution successful.
+][2023-10-25 23:15:05.320 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.CreateProducts (back)'
+][2023-10-25 23:15:05.336 +01:00 [INF] Route matched with {action = "CreateProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateProducts(back.Models.Domain.Product) on controller back.Controllers.ProductsController (back).
+][2023-10-25 23:15:05.583 +01:00 [INF] Executed DbCommand (27ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?', @p5='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "Description", "PublishedDate", "Thumbnail", "Title", "Visibility")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+][2023-10-25 23:15:05.595 +01:00 [INF] Executing OkObjectResult, writing value of type 'back.Models.Domain.Product'.
+][2023-10-25 23:15:05.599 +01:00 [INF] Executed action back.Controllers.ProductsController.CreateProducts (back) in 262.3867ms
+][2023-10-25 23:15:05.599 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.CreateProducts (back)'
+][2023-10-25 23:15:05.602 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7179/api/products multipart/form-data;+boundary=----WebKitFormBoundary6lB5nXwV0ErdE3Bz 781922 - 200 - application/json;+charset=utf-8 287.7783ms
+][2023-10-25 23:15:05.658 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/api/products - -
+][2023-10-25 23:15:05.660 +01:00 [INF] CORS policy execution successful.
+][2023-10-25 23:15:05.665 +01:00 [INF] Executing endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-10-25 23:15:05.666 +01:00 [INF] Route matched with {action = "GetProducts", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetProducts() on controller back.Controllers.ProductsController (back).
+][2023-10-25 23:15:05.748 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Description", p."PublishedDate", p."Thumbnail", p."Title", p."Visibility"
+FROM "Products" AS p
+][2023-10-25 23:15:05.750 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[back.Repositories.ProductEntity, back, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+][2023-10-25 23:15:05.750 +01:00 [INF] Executed action back.Controllers.ProductsController.GetProducts (back) in 84.0059ms
+][2023-10-25 23:15:05.750 +01:00 [INF] Executed endpoint 'back.Controllers.ProductsController.GetProducts (back)'
+][2023-10-25 23:15:05.751 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/api/products - - - 200 - application/json;+charset=utf-8 93.0610ms
+][2023-10-25 23:15:05.790 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7179/Uploads/Products/548f39b5-27dc-4e57-b32f-3e691c3731f4.jpg - -
+][2023-10-25 23:15:05.819 +01:00 [INF] Sending file. Request path: '/Uploads/Products/548f39b5-27dc-4e57-b32f-3e691c3731f4.jpg'. Physical path: 'C:\Users\melyo\Documents\github\melyonousi\dotnet-angular\dot-net\dotnet-angular-demo-03-use-wwwroot\back\wwwroot\Uploads\Products\548f39b5-27dc-4e57-b32f-3e691c3731f4.jpg'
+][2023-10-25 23:15:05.820 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7179/Uploads/Products/548f39b5-27dc-4e57-b32f-3e691c3731f4.jpg - - - 200 781185 image/jpeg 29.0313ms
+]

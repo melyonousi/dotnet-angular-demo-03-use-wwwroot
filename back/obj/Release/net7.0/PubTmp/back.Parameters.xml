@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="dotnet-angular-demo-03-use-wwwroot" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\melyo\\Documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\obj\\Release\\net7\.0\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>
