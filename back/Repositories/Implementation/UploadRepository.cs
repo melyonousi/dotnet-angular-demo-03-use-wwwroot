@@ -20,7 +20,6 @@ namespace back.Repositories.Implementation
         {
             if (!string.IsNullOrEmpty(url))
             {
-
                 string FilePath = Path.Combine(_webHostEnvironment.WebRootPath, "Uploads", folder, fileName + "." + url.Split(".")[1]);
                 try
                 {

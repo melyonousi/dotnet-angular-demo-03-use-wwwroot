@@ -1,0 +1,277 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\melyo\\Documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBC530E-4E1E-4329-A1C2-AD4726991FD2}|back.csproj|c:\\users\\melyo\\documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\repositories\\implementation\\uploadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DBC530E-4E1E-4329-A1C2-AD4726991FD2}|back.csproj|solutionrelative:repositories\\implementation\\uploadrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBC530E-4E1E-4329-A1C2-AD4726991FD2}|back.csproj|c:\\users\\melyo\\documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\controllers\\blogpostscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DBC530E-4E1E-4329-A1C2-AD4726991FD2}|back.csproj|solutionrelative:controllers\\blogpostscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBC530E-4E1E-4329-A1C2-AD4726991FD2}|back.csproj|c:\\users\\melyo\\documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\repositories\\implementation\\blogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DBC530E-4E1E-4329-A1C2-AD4726991FD2}|back.csproj|solutionrelative:repositories\\implementation\\blogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBC530E-4E1E-4329-A1C2-AD4726991FD2}|back.csproj|c:\\users\\melyo\\documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DBC530E-4E1E-4329-A1C2-AD4726991FD2}|back.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBC530E-4E1E-4329-A1C2-AD4726991FD2}|back.csproj|c:\\users\\melyo\\documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\models\\domain\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DBC530E-4E1E-4329-A1C2-AD4726991FD2}|back.csproj|solutionrelative:models\\domain\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBC530E-4E1E-4329-A1C2-AD4726991FD2}|back.csproj|c:\\users\\melyo\\documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\handler\\irefreshtokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DBC530E-4E1E-4329-A1C2-AD4726991FD2}|back.csproj|solutionrelative:handler\\irefreshtokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBC530E-4E1E-4329-A1C2-AD4726991FD2}|back.csproj|c:\\users\\melyo\\documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DBC530E-4E1E-4329-A1C2-AD4726991FD2}|back.csproj|solutionrelative:migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBC530E-4E1E-4329-A1C2-AD4726991FD2}|back.csproj|c:\\users\\melyo\\documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DBC530E-4E1E-4329-A1C2-AD4726991FD2}|back.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBC530E-4E1E-4329-A1C2-AD4726991FD2}|back.csproj|c:\\users\\melyo\\documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\migrations\\20231021010944_postgresql.container_migration_787.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DBC530E-4E1E-4329-A1C2-AD4726991FD2}|back.csproj|solutionrelative:migrations\\20231021010944_postgresql.container_migration_787.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBC530E-4E1E-4329-A1C2-AD4726991FD2}|back.csproj|c:\\users\\melyo\\documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\migrations\\20231021010944_postgresql.container_migration_787.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DBC530E-4E1E-4329-A1C2-AD4726991FD2}|back.csproj|solutionrelative:migrations\\20231021010944_postgresql.container_migration_787.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBC530E-4E1E-4329-A1C2-AD4726991FD2}|back.csproj|c:\\users\\melyo\\documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DBC530E-4E1E-4329-A1C2-AD4726991FD2}|back.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBC530E-4E1E-4329-A1C2-AD4726991FD2}|back.csproj|c:\\users\\melyo\\documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\repositories\\implementation\\userrespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DBC530E-4E1E-4329-A1C2-AD4726991FD2}|back.csproj|solutionrelative:repositories\\implementation\\userrespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBC530E-4E1E-4329-A1C2-AD4726991FD2}|back.csproj|c:\\users\\melyo\\documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DBC530E-4E1E-4329-A1C2-AD4726991FD2}|back.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DBC530E-4E1E-4329-A1C2-AD4726991FD2}|back.csproj|c:\\users\\melyo\\documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\repositories\\implementation\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DBC530E-4E1E-4329-A1C2-AD4726991FD2}|back.csproj|solutionrelative:repositories\\implementation\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BlogPostRepository.cs",
+              "DocumentMoniker": "C:\\Users\\melyo\\Documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\Repositories\\Implementation\\BlogPostRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementation\\BlogPostRepository.cs",
+              "ToolTip": "C:\\Users\\melyo\\Documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\Repositories\\Implementation\\BlogPostRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementation\\BlogPostRepository.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACMAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-22T20:07:50.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BlogPostsController.cs",
+              "DocumentMoniker": "C:\\Users\\melyo\\Documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\Controllers\\BlogPostsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BlogPostsController.cs",
+              "ToolTip": "C:\\Users\\melyo\\Documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\Controllers\\BlogPostsController.cs",
+              "RelativeToolTip": "Controllers\\BlogPostsController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-22T20:02:42.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "C:\\Users\\melyo\\Documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\Models\\Domain\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "Models\\Domain\\RefreshToken.cs",
+              "ToolTip": "C:\\Users\\melyo\\Documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\Models\\Domain\\RefreshToken.cs",
+              "RelativeToolTip": "Models\\Domain\\RefreshToken.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-03T00:56:04.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\melyo\\Documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\melyo\\Documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAawEsAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-03T00:56:01.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRefreshTokenGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\melyo\\Documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\Handler\\IRefreshTokenGenerator.cs",
+              "RelativeDocumentMoniker": "Handler\\IRefreshTokenGenerator.cs",
+              "ToolTip": "C:\\Users\\melyo\\Documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\Handler\\IRefreshTokenGenerator.cs",
+              "RelativeToolTip": "Handler\\IRefreshTokenGenerator.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAuwAIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-03T00:56:00.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UploadRepository.cs",
+              "DocumentMoniker": "C:\\Users\\melyo\\Documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\Repositories\\Implementation\\UploadRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementation\\UploadRepository.cs",
+              "ToolTip": "C:\\Users\\melyo\\Documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\Repositories\\Implementation\\UploadRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementation\\UploadRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-02T21:50:27.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\melyo\\Documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\melyo\\Documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAAAH4AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-03T00:55:59.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\melyo\\Documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\melyo\\Documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAADwvxEAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-03T00:55:56.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20231021010944_postgresql.container_migration_787.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\melyo\\Documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\Migrations\\20231021010944_postgresql.container_migration_787.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20231021010944_postgresql.container_migration_787.Designer.cs",
+              "ToolTip": "C:\\Users\\melyo\\Documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\Migrations\\20231021010944_postgresql.container_migration_787.Designer.cs",
+              "RelativeToolTip": "Migrations\\20231021010944_postgresql.container_migration_787.Designer.cs",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAAAIEAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-03T00:55:54.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20231021010944_postgresql.container_migration_787.cs",
+              "DocumentMoniker": "C:\\Users\\melyo\\Documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\Migrations\\20231021010944_postgresql.container_migration_787.cs",
+              "RelativeDocumentMoniker": "Migrations\\20231021010944_postgresql.container_migration_787.cs",
+              "ToolTip": "C:\\Users\\melyo\\Documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\Migrations\\20231021010944_postgresql.container_migration_787.cs",
+              "RelativeToolTip": "Migrations\\20231021010944_postgresql.container_migration_787.cs",
+              "ViewState": "AQIAAHEAAAAAAAAAAAASwH4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-03T00:55:50.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserRespository.cs",
+              "DocumentMoniker": "C:\\Users\\melyo\\Documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\Repositories\\Implementation\\UserRespository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementation\\UserRespository.cs",
+              "ToolTip": "C:\\Users\\melyo\\Documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\Repositories\\Implementation\\UserRespository.cs",
+              "RelativeToolTip": "Repositories\\Implementation\\UserRespository.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAawFkAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-02T23:35:26.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\melyo\\Documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\melyo\\Documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwCUAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-02T23:11:10.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\melyo\\Documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\melyo\\Documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-02T23:03:27.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\melyo\\Documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\Repositories\\Implementation\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementation\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\melyo\\Documents\\github\\melyonousi\\dotnet-angular\\dot-net\\dotnet-angular-demo-03-use-wwwroot\\back\\Repositories\\Implementation\\ProductRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementation\\ProductRepository.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAawD0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-02T21:46:37.164Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
